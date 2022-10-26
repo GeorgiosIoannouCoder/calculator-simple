@@ -3,7 +3,7 @@
 ## Description
 The description and requirements of **calculator-simple** are:
 
-1. Using HTML, CSS, Bootsrap, CSS Grid or Flexbox, build the interface in image attached.
+1. Using **HTML**, **CSS**, **Bootsrap**, CSS **Grid** or **Flexbox**, build the interface in image attached.
 2. Use Javascript to add functionality and logic to the buttons.
 
 ![2](https://user-images.githubusercontent.com/110848236/198022170-1628e593-1364-4c24-a6ce-b0c67629a33f.jpg)
