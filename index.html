@@ -19,12 +19,13 @@
         <div class="col-lg-3"></div>
         <div class="col-lg-6 text-center shadow-none">
           <div class="row">
-            <div class="col my-3">
+            <div class="col my-1">
+              <p id="info">Radians</p>
+              <p id="answer">Ans =</p>
               <input
                 type="text"
                 class="full-width rounded"
                 id="result"
-                placeholder="0"
                 disabled
               />
             </div>
@@ -44,6 +45,7 @@
                   type="button"
                   class="btn btn1 full-width operator"
                   id="deg"
+                  style="color: #808080"
                 >
                   Deg
                 </button>
@@ -87,16 +89,16 @@
             </div>
             <div class="col my-2">
               <button
-                type="button"
+                id="clear"
+                value="AC"
                 class="btn btn1 full-width operator"
-                id="cancel"
               >
                 AC
               </button>
             </div>
           </div>
           <div class="row">
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn1 full-width function"
@@ -105,7 +107,7 @@
                 sin
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn1 full-width function"
@@ -114,7 +116,7 @@
                 ln
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn2 full-width digit"
@@ -123,7 +125,7 @@
                 7
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn2 full-width digit"
@@ -132,12 +134,12 @@
                 8
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button type="button" class="btn btn2 full-width digit" id="nine">
                 9
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn3 full-width operator"
@@ -192,7 +194,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn1 full-width function"
@@ -201,7 +203,7 @@
                 tan
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn1 full-width function"
@@ -210,17 +212,17 @@
                 &#8730;
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button type="button" class="btn btn2 full-width digit" id="one">
                 1
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button type="button" class="btn btn2 full-width digit" id="two">
                 2
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn2 full-width digit"
@@ -229,7 +231,7 @@
                 3
               </button>
             </div>
-            <div class="col my-2">
+            <div class="col">
               <button
                 type="button"
                 class="btn btn3 full-width operator"
@@ -289,6 +291,44 @@
               >
                 +
               </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-primary">
+                <b>Keyboard shortcuts supported</b>
+              </li>
+            </ul>
+            <div class="col-lg-6 my-2">
+              <ul class="list-group">
+                <li class="list-group-item">! = <b>x!</b></li>
+                <li class="list-group-item">( = <b>(</b></li>
+                <li class="list-group-item">) = <b>)</b></li>
+                <li class="list-group-item">% = <b>%</b></li>
+                <li class="list-group-item">s = <b>sin</b></li>
+                <li class="list-group-item">l = <b>ln</b></li>
+                <li class="list-group-item">/ = <b>÷</b></li>
+                <li class="list-group-item">c = <b>cos</b></li>
+                <li class="list-group-item">g = <b>log</b></li>
+              </ul>
+            </div>
+            <div class="col-lg-6 my-2">
+              <ul class="list-group">
+                <li class="list-group-item">t = <b>tan</b></li>
+                <li class="list-group-item">* = <b>×</b></li>
+                <li class="list-group-item">t = <b>tan</b></li>
+                <li class="list-group-item">- = <b>-</b></li>
+                <li class="list-group-item">e = <b>EXP</b></li>
+                <li class="list-group-item">
+                  ^ = <b>x<sup>y</sup></b>
+                </li>
+                <li class="list-group-item">Enter = <b>=</b></li>
+                <li class="list-group-item">+ = <b>+</b></li>
+                <li class="list-group-item">
+                  Backspace = <b>delete last entry</b>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
